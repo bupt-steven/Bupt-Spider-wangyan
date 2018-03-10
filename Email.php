@@ -34,10 +34,11 @@ for($j =1 ;$j < count($arr[0]); $j++) {
        $name  = explode('<',$name_s[1]);
        echo $name[0]."\n";
    
-   //SendConf($name[0],$email[0]);
+   //SendConf($name[0],$email[0]);//此句为发送语句，去掉注释，即开始发送，诸位尝试时谨慎造成老师收到大面积垃圾邮件。望各位做好测试再发，name[0]为老师的姓氏，email为邮箱
+                                 
    }
 }
-   $name = '杨啖';
-   $email = 'yangdan@mxtrip.cn';
-   SendConf($name,$email);
+   //$name = '**老师';
+   //$email = 'bupt-steven@foxmail.com';
+   //SendConf($name,$email);
 ?>
